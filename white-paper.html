@@ -443,7 +443,7 @@
                                                                             <strong>Weeks 4-6:</strong> Smart Contract Development and Platform Prototyping. Creation of NeuroNugget tokens and initial platform development.<br><br>
                                                                             <strong>Weeks 7-9:</strong> Closed Beta Testing and Content Accumulation. Beta testing and content creation.<br><br>
                                                                             <strong>Weeks 10-12:</strong> Token Pre-Sale, Marketing, and Exchange Listings. Pre-sale launch and marketing initiatives.<br><br>
-                                                                            <strong>End of Q1:</strong> Official Public Launch. Full platform launch with regular content updates.
+                                                                            <strong>End of Q3:</strong> Official Public Launch. Full platform launch with regular content updates.
                                                                         </div>
                                                                     </li>
                                             
@@ -509,33 +509,35 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-    <script>
-        var ctx = document.getElementById('myChart').getContext('2d');
-        var myChart = new Chart(ctx, {
-            type: 'doughnut',
-            data: {
-                labels: ['Public', 'Developers', 'Marketing'],
-                datasets: [{
-                    label: 'Token Distribution',
-                    data: [80, 15, 5],
-                    backgroundColor: [
-                        '#1B5F8C', // Light blue // Lighter blue
-                        '#89CFF0',
-                        '#BCD4E6',
-                    ],
-                    borderColor: [
-                        '#1B5F8C',
-                        '#89CFF0',
-                        '#BCD4E6',
-                    ],
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-            }
-        });
-    </script>
+        <script>
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Public', 'Initial investors', 'Developer incentives', 'Marketing'],
+                    datasets: [{
+                        label: 'Token Distribution %',
+                        data: [80, 10, 5, 5],
+                        backgroundColor: [
+                            '#1B5F8C', // Light blue // Lighter blue
+                            '#89CFF0',
+                            '#BCD4E6',
+                            '#BCD4D6',
+                        ],
+                        borderColor: [
+                            '#1B5F8C',
+                            '#89CFF0',
+                            '#BCD4E6',
+                            '#BCD4D6',
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                }
+            });
+        </script>
     </body>
 </html>
