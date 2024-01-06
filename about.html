@@ -6,6 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>NeuroNugget: The Currency That Thinks!</title>
+        <link rel="icon" type="image/x-icon" href="assets/nugget_icon.jpeg" />
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -17,6 +18,13 @@
               font-size: 4em; /* Adjust the size as needed */
               background-size: 100%;
             }
+            #navbar-logo {
+                height: auto;
+                max-height: 55px; /* Adjust as needed */
+                width: auto;
+                margin-right: 10px; /* Space between logo and text */
+                border-radius: 40px;
+            }
         </style>
     </head>
     <body class="d-flex flex-column">
@@ -24,6 +32,7 @@
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container px-5">
+                    <img src="assets/nugget_icon.jpeg" alt="Logo" id="navbar-logo">
                     <a class="navbar-brand" href="index.html">NeuroNugget</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,14 +43,14 @@
                             <li class="nav-item"><a class="nav-link" href="index.html#tokenomics">Tokenomics</a></li>
                             <li class="nav-item"><a class="nav-link" href="index.html#roadmap">Roadmap</a></li>
                             <!-- <li class="nav-item"><a class="nav-link" href="#">Developer Portal</a></li> -->
-                            <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Social Media</a></li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
                                     <li><a class="dropdown-item" href="#">Blog Home</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
